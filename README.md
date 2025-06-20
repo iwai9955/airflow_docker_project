@@ -1,8 +1,8 @@
-# Airflow Docker Project for EV Demand Prediction 🚗⚡
+# Airflow Docker Project for EV Demand Prediction
 
 This is a simple ETL + ML pipeline built with Apache Airflow and Docker to predict Electric Vehicle (EV) charging demand.
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 airflow_docker_project/
@@ -17,13 +17,13 @@ airflow_docker_project/
 ├── .gitignore                   # Excludes .env, __pycache__, etc.
 ```
 
-## ⚙️ Features
+## Features
 - Data ingestion and preprocessing
 - Model training (one-time setup)
 - Model prediction using scheduled Airflow DAG
 - Containerized with Docker
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/iwai9955/airflow_docker_project.git
@@ -31,8 +31,8 @@ cd airflow_docker_project
 docker-compose up
 ```
 
-## 📈 Use Case
+## Use Case
 This project demonstrates how to automate machine learning prediction workflows in a reproducible and scalable manner using Airflow.
 
-## 👤 Author
+## Author
 Soobok Yoon | PhD in Energy Optimization | Monash University | LinkedIn](https://www.linkedin.com/in/soo-monash)
