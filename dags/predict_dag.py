@@ -29,9 +29,4 @@ predict_task = PythonOperator(
     dag=dag,
 )
 
-
-predict_task = PythonOperator(
-    task_id='predict_ev_demand',
-    python_callable=predict_ev_demand,
-    dag=dag,
-)
+# Airflow pipeline (ELT+ML) complete!
