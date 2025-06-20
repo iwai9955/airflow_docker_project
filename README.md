@@ -35,4 +35,4 @@ docker-compose up
 This project demonstrates how to automate machine learning prediction workflows in a reproducible and scalable manner using Airflow.
 
 ## 👤 Author
-Soobok Yoon | PhD in Energy Optimization | [LinkedIn](https://www.linkedin.com/in/soo-monash)
+Soobok Yoon | PhD in Energy Optimization | Monash University | LinkedIn](https://www.linkedin.com/in/soo-monash)
