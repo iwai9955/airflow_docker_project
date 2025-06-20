@@ -29,6 +29,9 @@ predict_task = PythonOperator(
     dag=dag,
 )
 
-print('hello')
 
-# Code complete!
+predict_task = PythonOperator(
+    task_id='predict_ev_demand',
+    python_callable=predict_ev_demand,
+    dag=dag,
+)
