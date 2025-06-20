@@ -1,0 +1,20 @@
+# 환경 설정
+.env
+
+# 데이터
+*.db
+*.pkl
+data/raw/
+
+# 로그
+logs/
+
+# Python 관련
+__pycache__/
+*.pyc
+
+# Excel 원본
+*.xlsx
+
+# VSCode 설정 (선택)
+.vscode/
