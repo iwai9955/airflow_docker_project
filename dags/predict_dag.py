@@ -19,7 +19,7 @@ dag = DAG(
     dag_id='predict_ev_demand_daily',
     default_args=default_args,
     description='Daily EV demand prediction DAG',
-    schedule='0 8 * * *',  # ✅ 수정됨
+    schedule='0 8 * * *',
     catchup=False,
 )
 
@@ -28,3 +28,7 @@ predict_task = PythonOperator(
     python_callable=predict_ev_demand,
     dag=dag,
 )
+
+print('hello')
+
+# Code complete!
